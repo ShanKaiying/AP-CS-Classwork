@@ -1,0 +1,27 @@
+I want to develop a program to determine the secondary structure of an RNA molecule. As we all know, there are 4 bases used to construct an RNA molecule: adenosine, uracil, guanine, and cytosine   (and sometimes thymine is also included, but we ignore it in this case). However, the affinities of each kind of base toward others are different. Conventionally, we regard C-G as a pair, and A-G as a paid, but there are exceptions, like the G-U wobble pair. 
+
+We assign a score to each base pair with the highest score indicating the least energy level. In this case, we assign 3 for a G-C pair, a 2 for T-A pair, and a 1 for G-U pair, and then we calculate for the option with the most scores.
+
+
+   G  A  A  T  T  C  G  A  T  T  C  G  A  A  T  T  C  C G  A  T
+G 
+A
+A
+T
+T
+C
+G
+A
+T
+T
+C
+G
+A
+A
+T
+T
+C
+C
+G
+A
+T
