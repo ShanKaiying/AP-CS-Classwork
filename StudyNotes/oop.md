@@ -6,12 +6,16 @@ Reference variable; instance of a class
 Instance or static variable in a class
 ##Behavior
 Methdos in a class
-##Encapsulation
+##Encapsulation: hiding the attribute and behavior of an object and show the interface.
 
-##Constructor
+##Constructor: 
+<br>A constructor creates an object of the class. Having several constructors provides different ways of initializing class objects. For example, there are two constructors in the BankAccount class.
 
-##Invoke
+##Invoke: 
+<br>call a method
 
-##Getter Methods
+##Getter Methods: 
+<br>get the value of an attribute(variable)
 
-##Setter methods
+##Setter methods: 
+<br>set the value of an attribute.
