@@ -103,5 +103,3 @@ public void change(int i){
 currentNumber = i;
 }
 }
-//it's like the whole week of classes was wasted for this stupid meaningless classwork
-//why not study for something else on MOOC when the teacher doesn't teach 
