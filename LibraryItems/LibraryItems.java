@@ -75,11 +75,12 @@ public class LibraryItems {
     }
     
     public static void main(String[] args) {
-        Book b = new Book("12 Rules for Life", "Jordan Peterson", "X123", false, new Date(), false);
+        LibraryItems b = new Book("12 Rules for Life", "Jordan Peterson", "X123", false, new Date(), false);
         b.printDetail();
         
-        CD cd = new CD("And Justice for All", "Metallica", "X567",false, new Date(), "Metal");
+        LibraryItems cd = new CD("And Justice for All", "Metallica", "X567",false, new Date(), "Metal");
         cd.printDetail();
+        
     }
 
 }

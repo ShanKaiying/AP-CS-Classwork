@@ -34,7 +34,15 @@ public class CD extends LibraryItems{
     
     @Override
     public void printDetail(){
-        super.printDetail();
+        System.out.println("title: "+ this.title);
+        System.out.println("artist: "+ this.getAuthor_Artist());
+        System.out.println("itemID: " + this.itemID);
+        if(this.onLoan){
+            System.out.println("on loan");
+        }else{
+            System.out.println("not on loan");
+        }
+        System.out.println("due date: " + this.dueDate);
         System.out.println("music type: " + this.genre +"\n");
     }
     

@@ -32,7 +32,15 @@ public class Book extends LibraryItems {
     
     @Override
     public void printDetail(){
-        super.printDetail();
+        System.out.println("title: "+ this.title);
+        System.out.println("author: "+ this.getAuthor_Artist());
+        System.out.println("itemID: " + this.itemID);
+        if(this.onLoan){
+            System.out.println("on loan");
+        }else{
+            System.out.println("not on loan");
+        }
+        System.out.println("due date: " + this.dueDate);
         if(this.isRequested){
             System.out.println("requested by another borrower\n");
         }else{
