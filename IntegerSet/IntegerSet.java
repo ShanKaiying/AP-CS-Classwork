@@ -47,7 +47,13 @@ public class IntegerSet implements Mergeble{
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int[] is = {1, 2, 3};
+        IntegerSet i = new IntegerSet(is);
+        
+        int o[] = {4, 5, 6};
+        i.merge(o);
+        
+        i.printElement();
     }
 
     @Override
@@ -62,8 +68,8 @@ public class IntegerSet implements Mergeble{
         for(int i = 0; i < x.length; i ++){
             result[integerSet.length + i] = x[i];
         }
-        
-        return result;
+        integerSet = result;
+        return result; 
     }
     
 }
